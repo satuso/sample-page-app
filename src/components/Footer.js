@@ -12,7 +12,7 @@ const Footer = () => {
       <p><Link to="/contact">Contact Us</Link></p>
     </div>    
     <div>
-      <p>© The Coffee Company</p>
+      <p><a href="https://github.com/satuso/" target="blank">© satuso</a></p>
     </div>
     </footer>
   )
