@@ -1,3 +1,4 @@
+import Bottom from "./Bottom"
 import Header from "./Header"
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
     <main>
       <h2>We make Coffee.</h2>
     </main>
+    <Bottom />
     </>
   )
 }
