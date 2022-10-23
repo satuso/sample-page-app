@@ -4,18 +4,20 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <h4><Link to="/contact">Contact Us</Link></h4>
-        <p><Link to="/">The Coffee Company</Link></p>
+        <h4><Link to="/contact">Ipsum</Link></h4>
+        <p><Link to="/">Lorem ipsum dolor sit amet</Link></p>
         <p>Nemo enim ipsam 5</p>
-        <p>00100 Lorem</p>
+        <p>00000 Lorem</p>
         <p>Ipsum</p>
       </div>
       <div>
-        <h4>Ut enim ad minim veniam</h4>
+        <h4><Link to="/">Ut enim ad minim veniam</Link></h4>
         <p>Lorem ipsum dolor sit amet</p>
+        <p>Duis aute irure dolor in reprehenderit</p>
       </div>
       <div>
-        <p><a href="https://github.com/satuso/" target="blank">© satuso</a></p>
+        <h4><Link to="/">Ut enim ad minim veniam</Link></h4>
+        <p>Lorem ipsum dolor sit amet</p>
       </div>
     </footer>
   )

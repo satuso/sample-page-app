@@ -93,6 +93,7 @@ footer {
   align-items: baseline;
   justify-content: space-between;
   font-size: .8rem;
+  line-height: 2;
 }
 
 footer a {
@@ -112,12 +113,12 @@ form {
   display: flex;
   flex-direction: column;
   margin: 1em;
-  width: 350px;
+  width: 400px;
 }
 
 input, textarea {
   outline: none;
-  padding: 14px;
+  padding: 12px;
   margin: .5em;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
@@ -179,11 +180,24 @@ img {
 a {
   color: ghostwhite;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 a:hover, a:focus, a:active {
   color: #b77952;
+  transform: scale(1.1);
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.08, 1.08);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 @media only screen and (max-width: 800px) {

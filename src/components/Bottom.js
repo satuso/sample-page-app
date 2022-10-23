@@ -4,7 +4,7 @@ const Bottom = () => {
     <header>
     </header>
     <main>
-      <h3>You Drink It.</h3>
+      <h3>Dolor sit amet</h3>
     </main>
     </>
   )

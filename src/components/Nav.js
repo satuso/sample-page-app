@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 const Nav = () => {
   return (
     <nav>
-      <h1><Link to="/">The Coffee Company.</Link></h1>
+      <h1><Link to="/">Lorem ipsum dolor sit amet</Link></h1>
       <div>
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/contact">Contact Us</Link>
+        <Link to="/about">Lorem</Link> | {" "}
+        <Link to="/contact">Ipsum</Link>
       </div>
     </nav>
   )

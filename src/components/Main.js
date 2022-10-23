@@ -6,7 +6,7 @@ const Main = () => {
     <>
     <Header />
     <main>
-      <h2>We make Coffee.</h2>
+      <h2>Lorem Ipsum</h2>
     </main>
     <Bottom />
     </>
